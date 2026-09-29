@@ -25,14 +25,14 @@
 
 <br/>
 
-[![Release](https://img.shields.io/github/v/release/AgentSystemLabs/agent-office?style=for-the-badge&color=e8c547&label=release)](https://github.com/AgentSystemLabs/agent-office/releases)&nbsp;[![Build](https://img.shields.io/github/actions/workflow/status/AgentSystemLabs/agent-office/release.yml?style=for-the-badge&label=build)](https://github.com/AgentSystemLabs/agent-office/actions)&nbsp;[![License](https://img.shields.io/badge/license-MIT-blue?style=for-the-badge)](LICENSE)&nbsp;[![TypeScript](https://img.shields.io/badge/TypeScript-3178c6?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org)&nbsp;[![Platform](https://img.shields.io/badge/macOS%20%7C%20Linux%20%7C%20Windows-555555?style=for-the-badge)](#run-locally)
+[![Release](https://img.shields.io/github/v/release/MananShukla007/agent-office?style=for-the-badge&color=e8c547&label=release)](https://github.com/MananShukla007/agent-office/releases)&nbsp;[![Build](https://img.shields.io/github/actions/workflow/status/MananShukla007/agent-office/release.yml?style=for-the-badge&label=build)](https://github.com/MananShukla007/agent-office/actions)&nbsp;[![License](https://img.shields.io/badge/license-MIT-blue?style=for-the-badge)](LICENSE)&nbsp;[![TypeScript](https://img.shields.io/badge/TypeScript-3178c6?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org)&nbsp;[![Platform](https://img.shields.io/badge/macOS%20%7C%20Linux%20%7C%20Windows-555555?style=for-the-badge)](#run-locally)
 
 <br/>
 
 </div>
 
 ```sh
-curl -fsSL https://raw.githubusercontent.com/AgentSystemLabs/agent-office/main/install.sh | bash
+curl -fsSL https://raw.githubusercontent.com/MananShukla007/agent-office/main/install.sh | bash
 ```
 
 <div align="center">
@@ -132,12 +132,12 @@ On the machine that runs the office:
 
 ```bash
 # macOS / Linux
-curl -fsSL https://raw.githubusercontent.com/AgentSystemLabs/agent-office/main/install.sh | bash
+curl -fsSL https://raw.githubusercontent.com/MananShukla007/agent-office/main/install.sh | bash
 ```
 
 ```powershell
 # Windows (PowerShell)
-irm https://raw.githubusercontent.com/AgentSystemLabs/agent-office/main/install.ps1 | iex
+irm https://raw.githubusercontent.com/MananShukla007/agent-office/main/install.ps1 | iex
 ```
 
 This puts `agent-office` on your PATH. Run the install line again to update.
@@ -169,7 +169,7 @@ agent-office setup                          # re-run first-start walkthrough (of
 To run from a clone:
 
 ```bash
-git clone https://github.com/AgentSystemLabs/agent-office && cd agent-office
+git clone https://github.com/MananShukla007/agent-office && cd agent-office
 npm install       # also builds the client and server
 npm install -g .  # puts agent-office on your PATH
 agent-office
@@ -222,7 +222,7 @@ Run one line on the server as root or sudo:
 
 <pre>curl -fsSL \
   https://raw.githubusercontent.com/\
-AgentSystemLabs/agent-office/main/\
+MananShukla007/agent-office/main/\
 deploy/provision.sh | bash</pre>
 
 Installs Node 22, git, `gh`, Claude Code, and the office as a systemd service. Add `--domain office.example.com` for HTTPS or `--tailscale` for Tailscale.
